@@ -12,7 +12,7 @@ define systemd::unit (
   $group                   = undef,
   $user                    = undef,
   $workingdirectory        = undef,
-  $service_type            = 'simple'
+  $service_type            = 'simple',
   $service_timeoutstartsec = undef,
   $service_restart         = undef,
   $service_restartsec      = undef,
